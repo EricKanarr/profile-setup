@@ -12,17 +12,102 @@ body {
   margin: 0;
 }
 
+.outside{
+  width: 90%;
+}
+
 .outer {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
   background-color: #FBDA31;
   padding: 2rem;
   min-height: 100vh;
 }
 
+form{
+  width: 88%;
+}
+
 section {
-  max-width: 760px;
+  display: flex;
+  width: 90%;
+  font-weight: bolder;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
+}
+
+fieldset{
+  border-style: none;
+  background-color: white;
+  width: 100vw;
+  height: 70vh;
+}
+
+.fields{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.radio-buttons{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.entry{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.entry1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.entry2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.entry input{
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  height: 5vw;
+  width: 30vw;
+}
+
+.entry3{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 2vw;
+}
+
+.entry4{
+  display: flex;
+  flex-flow: column;
+  padding-right: .7vw;
+}
+
+button{
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 1vw;
+  width: 31vw;
 }
